@@ -1,0 +1,10 @@
+#----- Build the Virtual Environment for flask -----------
+python3 -m venv venv
+
+#----- Activate Virtual Environment -----------
+source venv/bin/activate
+
+
+#----- Run Server -----------
+export FLASK_APP= XXX.py
+flask run
